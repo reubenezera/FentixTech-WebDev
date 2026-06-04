@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Task 1</title>
+        <style>
+            body {
+                padding: 0;
+                margin: 0;
+            }
+
+            content {
+                display: grid;
+                grid-template-columns: 32% 36% 32%;
+                grid-template-rows: auto;
+            }
+
+            .sidebar1 {
+                justify-self: start;
+            }
+
+            .sidebar2 {
+                justify-self: end;
+            }
+
+            main {
+                justify-self: center;
+            }
+        </style>
+    </head>
+
+    <body>
+        <header>
+            <h1>Header</h1>
+        </header>
+        
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#page1">Page 1</a>
+            <a href="#page2">Page 2</a>
+        </nav>
+
+        <br>
+
+        <content>
+            <sidebar class="sidebar1">
+                <h2>Sidebar 1</h2>
+                <p>This is the first sidebar.</p>
+            </sidebar>
+
+            <main>
+                <h2>Main Content</h2>
+                <p>This is the page's main content.</p>
+            </main>
+
+            <sidebar class="sidebar2">
+                <h2>Sidebar 2</h2>
+                <p>This is the second sidebar.</p>
+            </sidebar>
+        </content>
+
+        <footer>
+            <p>Footer </p>
+        </footer>
+    </body>
+</html>
