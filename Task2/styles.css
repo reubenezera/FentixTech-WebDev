@@ -1,0 +1,146 @@
+body {
+    display: block;
+    min-height: 100vh;
+}
+
+main {
+    margin: 0;
+    width: 100%;
+    min-height: 100vh;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.level-1 {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    align-items: center;
+    gap: 1rem;
+}
+
+.level-1-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.store-buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.store-buttons img {
+    width: 160px;
+    max-width: 40%;
+    height: auto;
+    display: block;
+}
+
+@media (max-width: 480px) {
+    .store-buttons {
+        flex-direction: column;
+    }
+    section {
+        grid-template-columns: 1fr;
+    }
+}
+
+.level-1-left img, .level-1-right img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.level-2 {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    align-items: center;
+    gap: 1rem;
+}
+
+.level-2-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.level-2-left img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.level-3 {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    align-items: center;
+    gap: 1rem;
+}
+
+.level-3-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.level-3-right img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.level-4-left img, .level-4-right img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.level-4 {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    align-items: center;
+    gap: 1rem;
+}
+
+.level-4-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+img#peratude {
+    display: block;
+    margin: 0 auto;
+    max-width: 180px;
+    width: 100%;
+}
+
+section {
+    margin: 0;
+}
+
+section h1,
+section h2 {
+    margin: 0;
+}
+
+text {
+    text-align: center;
+    font-size: 7px;
+    font-family: "Helvetica", sans-serif;
+}
+
+span {
+    color: rgb(102, 164, 248);
+}
